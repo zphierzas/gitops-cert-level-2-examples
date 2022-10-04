@@ -15,7 +15,6 @@ spec:
                 - path: application-sets/example-apps/*
           # cluster generator, 'child' #2
           - clusters:
-              selector:
                   argocd.argoproj.io/secret-type: cluster
   template:
     metadata:
