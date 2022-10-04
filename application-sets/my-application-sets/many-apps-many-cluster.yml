@@ -16,7 +16,7 @@ spec:
           # cluster generator, 'child' #2
           - clusters:
               selector:
-                  argocd.argoproj.io/secret-type: all cluster
+                  argocd.argoproj.io/secret-type: cluster
   template:
     metadata:
       name: '{{path.basename}}-{{name}}'
